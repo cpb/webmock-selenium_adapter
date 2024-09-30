@@ -1,5 +1,11 @@
 # frozen_string_literal: true
 
+require "webmock/rspec"
+
+WebMock.disable_net_connect!(allow_localhost: true)
+
+require "selenium-webdriver"
+
 require "webmock/selenium_adapter"
 
 RSpec.configure do |config|

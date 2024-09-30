@@ -11,6 +11,8 @@ gem "rake"
 
 gem "rspec"
 
+gem "selenium-webdriver"
+
 gem "standard"
 
 gem "webmock"
